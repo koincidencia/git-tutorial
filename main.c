@@ -5,6 +5,10 @@ void my_1st_print_func(){
 
     printf("\n\n\tthis is my func!\t\n\n");
 }
+void hegeszto(){
+    printf("hegesztem a kodot\n");
+}
+
 
 void kazyfunc()
 {
@@ -57,6 +61,7 @@ int main()
     printf("%d\n", this_is_the_coolest_func());
     printf("Hello world!\n");
     for_loop_func();
+    hegeszto();
     kazyfunc();
     kazymasikfunc();
 
