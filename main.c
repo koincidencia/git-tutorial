@@ -29,5 +29,9 @@ int main()
     kazyfunc();
     kazymasikfunc();
 
+    int tomb[5] = {1, 2, 3, 4, 5};
+    float avg = average(tomb, 5);
+    printf("Az atlag: %f", avg);
+
     return 0;
 }
