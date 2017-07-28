@@ -9,6 +9,10 @@ void hegeszto(){
     printf("hegesztem a kodot\n");
 }
 
+void lofasz()
+{
+    printf("hinnye\n");
+}
 
 void kazyfunc()
 {
