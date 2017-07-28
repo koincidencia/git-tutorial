@@ -14,10 +14,18 @@ int this_is_the_coolest_func(){
     return c;
 }
 
+void for_loop_func(){
+
+    for (int i = 1; i < 11; i++){
+        printf("%d\n", i);
+    }
+
+}
 int main()
 {
     my_1st_print_func();
     printf("%d\n", this_is_the_coolest_func());
     printf("Hello world!\n");
+    for_loop_func();
     return 0;
 }
