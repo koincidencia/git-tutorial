@@ -46,6 +46,10 @@ void reszelo()
     printf("Reszelem a kodot\n");
 }
 
+void kalapalo()
+{
+    printf("kopp-kopp\n");
+}
 
 int main()
 {
