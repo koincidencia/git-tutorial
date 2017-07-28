@@ -62,7 +62,10 @@ int main()
 
     int tomb[5] = {1, 2, 3, 4, 5};
     float avg = average(tomb, 5);
-    printf("Az atlag: %f", avg);
+    printf("Az atlag: %f\n", avg);
+
+    reszelo();
+    kalapalo();
 
     return 0;
 }
