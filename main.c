@@ -41,6 +41,11 @@ float average(int* arr, int len)
     return (avg / len);
 }
 
+void reszelo()
+{
+    printf("Reszelem a kodot\n");
+}
+
 
 int main()
 {
