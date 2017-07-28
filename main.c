@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void hegeszto(){
+    printf("hegesztem a kodot\n");
+}
+
+
 void kazyfunc()
 {
     printf("en vagyok a kazy\n");
@@ -25,7 +30,7 @@ float average(int* arr, int len)
 int main()
 {
     printf("Hello world!\n");
-
+    hegeszto();
     kazyfunc();
     kazymasikfunc();
 
